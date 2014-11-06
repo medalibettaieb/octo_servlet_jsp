@@ -8,10 +8,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1><%=getServletContext().getInitParameter("motus")%></h1>
-	good morning folks
-	<%=System.getProperty("user.name")%>
-	<form action="/web/NewFile.jsp" method="post">
+	<h1><%=getServletContext().getInitParameter("letters")%></h1>
+	good morning
+	<%-- <%=System.getProperty("user.name")%> --%>
+	<form action="/tn.edu.esprit.jee_team.letter_game/welcome.jsp" method="post">
 		<input type="text" name="name" required ><br> <input type="text"
 			name="word" required> <input type="submit" value="go">
 
